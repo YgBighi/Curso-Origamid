@@ -1,0 +1,33 @@
+a {
+  text-decoration: none;
+  color: white;
+  background: darkblue;
+  display: inline-block;
+}
+
+p {
+  background: lightblue;
+}
+
+html {
+  font-size: 16px;
+}
+
+div {
+  font-size: 200%;
+}
+
+.px {
+  font-size: 24px;
+  padding: 16px 32px;
+}
+
+.rem {
+  font-size: 1.5rem;
+  padding: 1rem 2rem;
+}
+
+.em {
+  font-size: 2em;
+  padding: 1em 2em;
+}

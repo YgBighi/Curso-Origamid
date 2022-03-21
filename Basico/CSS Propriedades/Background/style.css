@@ -1,0 +1,38 @@
+.bicicleta {
+  height: 600px;
+  background-color: lightblue;
+  background-image: url("./images/bicicleta-1200-800.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  display: flex;
+}
+
+h1 {
+  margin: auto;
+  background: white;
+  padding: 1rem 2rem;
+}
+
+.pattern {
+  height: 300px;
+  background-color: lightcoral;
+  background-image: url("./images/lobo.jpg");
+  background-repeat: no-repeat;
+  background-size: 100px;
+}
+
+.linear {
+  height: 200px;
+  background-image: linear-gradient(
+    45deg,
+    lightblue,
+    lightcoral 25%,
+    green 50%
+  );
+}
+
+.radial {
+  height: 200px;
+  background-image: radial-gradient(circle, blue, red, green);
+}

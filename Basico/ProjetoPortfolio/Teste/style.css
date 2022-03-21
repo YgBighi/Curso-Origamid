@@ -1,0 +1,105 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  padding: 2rem 0.5rem;
+  background: #f7f7f7;
+}
+
+.botao-cabecario {
+  display: inline-block;
+}
+
+.cabecario {
+  text-align: right;
+}
+
+.cabecario a {
+  border: 2px solid white;
+  border-radius: 0.2rem;
+  color: black;
+  gap: 1rem;
+  margin: 1rem;
+  padding: 0.5rem;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.cabecario a:hover {
+  border: 2px solid #f7f7f7;
+  background: #f7f7f7;
+  color: black;
+}
+
+.principal {
+  display: grid;
+  grid-template-columns: 40% 1fr;
+  background: #f7f7f7;
+  max-width: 1000px;
+  margin-top: 3rem;
+}
+
+.introducao {
+  padding: 1rem;
+  background: white;
+  align-self: center;
+  position: relative;
+  display: grid;
+  gap: 1rem;
+  justify-items: start;
+}
+
+.introducao h1 {
+  padding-left: 4rem;
+  padding-right: 4rem;
+  padding-top: 2rem;
+  margin-bottom: 0rem;
+  font-size: 6rem;
+}
+
+.introducao p {
+  font-weight: 600;
+  padding-left: 4rem;
+  font-size: 2rem;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.introducao p img {
+  max-width: 20px;
+}
+
+.experiencia {
+  font-size: 4rem;
+  justify-self: start;
+  color: rgba(0, 0, 0, 0.2);
+  text-transform: uppercase;
+  word-break: break-all;
+  background: white;
+}
+.lista {
+  background: white;
+  padding: 2rem;
+}
+
+.lista h1 {
+  font-size: 2rem;
+  font-weight: 400;
+  padding: 4rem;
+}
